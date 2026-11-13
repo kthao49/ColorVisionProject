@@ -8,32 +8,55 @@ Regular Vision,Protanopia, and Tritanopia. My program will compares each colors 
 combinations that may need improvment. After analyzing the colors, the program provides results showing which combinations pass or fail the requierments.
 It also explains potenial problems, why it matters, and ways to improvment the colors. At the end, the program will save the results which called ColorVisionFeedback.txt. 
 **version 1.0**
+## New in v2.0
+Adding new feedback about the problem, why it matter, and improvment 
+calculates the brightness colors 
+RGB colors difference 
+give feedback about the brightness 
+ASSESSMENT feedback
+## how to run
+g++ --std=c++11 *.cpp -o cvp
+./cvp
 
 ## Developer
 Kaylee Thao
 
 
 ## Example
+## example input
 ========== COLOR DIFFERENCE & BRIGHTNESS ANALYSIS ==========
 
 This program compares three colors using their RGB values.
 Enter RGB values between 0 and 255.
 
 Enter RGB values for Color 1:
-Red (0-255): 20 
-Green (0-255): 30
-Blue (0-255): 100
+
+Red (0-255): 
+> 20 
+Green (0-255): 
+> 30
+Blue (0-255): 
+> 100
 
 Enter RGB values for Color 2:
-Red (0-255): 30
-Green (0-255): 255
-Blue (0-255): 68
+Red (0-255): 
+> 30
+Green (0-255): 
+> 255
+Blue (0-255): 
+> 68
 
 Enter RGB values for Color 3:
-Red (0-255): 78
-Green (0-255): 255
-Blue (0-255): 41
+Red (0-255): 
+> 78
+Green (0-255): 
+> 255
+Blue (0-255): 
+> 41
 
+
+
+## example output
 Select a vision mode:
 1. Regular Vision
 2. Protanopia
